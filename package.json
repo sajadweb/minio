@@ -1,0 +1,16 @@
+{
+    "name": "minio",
+    "version": "1.0.0",
+    "description": "docker-compose minio",
+    "scripts": {
+      "start": "docker-compose start",
+      "restart": "docker-compose restart",
+      "stop": "docker-compose stop",
+      "up": "docker-compose build && docker-compose up -d",
+      "down": "docker-compose down"
+    },
+    "keywords": ["minio","docker","docker-compose"],
+    "author": "Sajjad Mohhamadi Nejad<sajadweb7@gmail.com>",
+    "license": "ISC"
+  }
+  
